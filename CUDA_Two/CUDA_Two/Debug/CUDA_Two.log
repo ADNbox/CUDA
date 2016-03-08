@@ -1,0 +1,21 @@
+﻿Compilación iniciada a las 09/03/2016 05:29:40 a.m..
+     1>Proyecto "c:\Users\vic\documents\visual studio 2013\Projects\CUDA_Two\CUDA_Two\CUDA_Two.vcxproj" en el nodo 2 (Build destinos).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c "c:\Users\vic\documents\visual studio 2013\Projects\CUDA_Two\CUDA_Two\main.cu" 
+       CudaBuild:
+         Compiling CUDA source file main.cu...
+         cmd.exe /C "C:\Users\vic\AppData\Local\Temp\tmpd34cfc5f69394bbbaa184341a9930ab2.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\main.cu.obj "c:\Users\vic\documents\visual studio 2013\Projects\CUDA_Two\CUDA_Two\main.cu"
+         
+         c:\Users\vic\documents\visual studio 2013\Projects\CUDA_Two\CUDA_Two>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\main.cu.obj "c:\Users\vic\documents\visual studio 2013\Projects\CUDA_Two\CUDA_Two\main.cu" 
+     1>c:/Users/vic/documents/visual studio 2013/Projects/CUDA_Two/CUDA_Two/main.cu(18): warning : variable "h_b" was declared but never referenced
+     1>c:/Users/vic/documents/visual studio 2013/Projects/CUDA_Two/CUDA_Two/main.cu(18): warning : variable "h_b" was declared but never referenced
+         main.cu
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\vic\documents\visual studio 2013\Projects\CUDA_Two\Debug\CUDA_Two.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32\cudart.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\vic\documents\visual studio 2013\Projects\CUDA_Two\Debug\CUDA_Two.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\vic\documents\visual studio 2013\Projects\CUDA_Two\Debug\CUDA_Two.lib" /MACHINE:X86 Debug\main.cu.obj
+         CUDA_Two.vcxproj -> c:\users\vic\documents\visual studio 2013\Projects\CUDA_Two\Debug\CUDA_Two.exe
+     1>Compilación del proyecto terminada "c:\Users\vic\documents\visual studio 2013\Projects\CUDA_Two\CUDA_Two\CUDA_Two.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:16.41
