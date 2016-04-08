@@ -3,7 +3,7 @@
 
 using namespace std;
 
-__global__ void AddInts(int* a, int* b)
+__global__  void AddInts(int* a, int* b)
 {
 //This could be any operation that takes more than 2 seconds
 //Here I've rather pointlessly asked a single CUDA thread to
